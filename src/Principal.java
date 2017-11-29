@@ -13,6 +13,7 @@ import javax.swing.JOptionPane;
  */
 public class Principal {
     public static void main(String[] args) {
+        while(true){
         int command = JOptionPane.showOptionDialog(null, "Calcular Area y Perimetro, Figuras Geometricas",
                     "UNL", JOptionPane.YES_NO_CANCEL_OPTION,
                     JOptionPane.QUESTION_MESSAGE, null,// null para icono por defecto.
@@ -42,5 +43,6 @@ public class Principal {
                 System.exit(0);
                     break;
         }
+       }
     }
 }
